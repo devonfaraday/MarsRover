@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0E05801E7B3B1000BE3C6F /* DNMSolCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0E057F1E7B3B1000BE3C6F /* DNMSolCollectionViewCell.m */; };
+		5D1925681E71E1B000B5EB2B /* RoversTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1925671E71E1B000B5EB2B /* RoversTableViewController.m */; };
 		5DA094311E6F529400B24022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA094301E6F529400B24022 /* main.m */; };
 		5DA094341E6F529400B24022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA094331E6F529400B24022 /* AppDelegate.m */; };
-		5DA094371E6F529400B24022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA094361E6F529400B24022 /* ViewController.m */; };
 		5DA0943A1E6F529400B24022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA094381E6F529400B24022 /* Main.storyboard */; };
 		5DA0943C1E6F529400B24022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA0943B1E6F529400B24022 /* Assets.xcassets */; };
 		5DA0943F1E6F529400B24022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA0943D1E6F529400B24022 /* LaunchScreen.storyboard */; };
+		5DA094491E6F537500B24022 /* DNMRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA094481E6F537500B24022 /* DNMRover.m */; };
+		5DA0944D1E6F53A700B24022 /* DNMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA0944C1E6F53A700B24022 /* DNMPhoto.m */; };
+		5DA094501E6F53CE00B24022 /* DNMSol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA0944F1E6F53CE00B24022 /* DNMSol.m */; };
+		5DA094541E6F60DB00B24022 /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DA094531E6F60DB00B24022 /* APIKeys.plist */; };
+		5DCD43CD1E79A32E00816103 /* RoverManifestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD43CC1E79A32E00816103 /* RoverManifestViewController.m */; };
+		5DF895911E70623200727E9A /* DNMMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF895901E70623200727E9A /* DNMMarsRoverClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D0E057E1E7B3B1000BE3C6F /* DNMSolCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMSolCollectionViewCell.h; sourceTree = "<group>"; };
+		5D0E057F1E7B3B1000BE3C6F /* DNMSolCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMSolCollectionViewCell.m; sourceTree = "<group>"; };
+		5D1925661E71E1B000B5EB2B /* RoversTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoversTableViewController.h; sourceTree = "<group>"; };
+		5D1925671E71E1B000B5EB2B /* RoversTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoversTableViewController.m; sourceTree = "<group>"; };
 		5DA0942C1E6F529400B24022 /* MarsRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DA094301E6F529400B24022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DA094301E6F529400B24022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5DA094321E6F529400B24022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DA094331E6F529400B24022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5DA094351E6F529400B24022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5DA094361E6F529400B24022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5DA094391E6F529400B24022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DA0943B1E6F529400B24022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA0943E1E6F529400B24022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA094401E6F529400B24022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA094471E6F537500B24022 /* DNMRover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DNMRover.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5DA094481E6F537500B24022 /* DNMRover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMRover.m; sourceTree = "<group>"; };
+		5DA0944B1E6F53A700B24022 /* DNMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DNMPhoto.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5DA0944C1E6F53A700B24022 /* DNMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMPhoto.m; sourceTree = "<group>"; };
+		5DA0944E1E6F53CE00B24022 /* DNMSol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMSol.h; sourceTree = "<group>"; };
+		5DA0944F1E6F53CE00B24022 /* DNMSol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMSol.m; sourceTree = "<group>"; };
+		5DA094531E6F60DB00B24022 /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		5DCD43CB1E79A32E00816103 /* RoverManifestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoverManifestViewController.h; sourceTree = "<group>"; };
+		5DCD43CC1E79A32E00816103 /* RoverManifestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoverManifestViewController.m; sourceTree = "<group>"; };
+		5DF8958F1E70623200727E9A /* DNMMarsRoverClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMMarsRoverClient.h; sourceTree = "<group>"; };
+		5DF895901E70623200727E9A /* DNMMarsRoverClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMMarsRoverClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +59,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D1925691E71E1B500B5EB2B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D1925661E71E1B000B5EB2B /* RoversTableViewController.h */,
+				5D1925671E71E1B000B5EB2B /* RoversTableViewController.m */,
+				5DCD43CB1E79A32E00816103 /* RoverManifestViewController.h */,
+				5DCD43CC1E79A32E00816103 /* RoverManifestViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		5DA094231E6F529400B24022 = {
 			isa = PBXGroup;
 			children = (
@@ -60,12 +91,12 @@
 			children = (
 				5DA094321E6F529400B24022 /* AppDelegate.h */,
 				5DA094331E6F529400B24022 /* AppDelegate.m */,
-				5DA094351E6F529400B24022 /* ViewController.h */,
-				5DA094361E6F529400B24022 /* ViewController.m */,
 				5DA094381E6F529400B24022 /* Main.storyboard */,
-				5DA0943B1E6F529400B24022 /* Assets.xcassets */,
-				5DA0943D1E6F529400B24022 /* LaunchScreen.storyboard */,
-				5DA094401E6F529400B24022 /* Info.plist */,
+				5DA0944A1E6F537800B24022 /* Model */,
+				5DF895921E70623700727E9A /* ModelController */,
+				5D1925691E71E1B500B5EB2B /* ViewControllers */,
+				5DCA09551E79E4C50080E915 /* Views */,
+				5DA094461E6F532700B24022 /* Resources */,
 				5DA0942F1E6F529400B24022 /* Supporting Files */,
 			);
 			path = MarsRover;
@@ -77,6 +108,48 @@
 				5DA094301E6F529400B24022 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DA094461E6F532700B24022 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DA0943B1E6F529400B24022 /* Assets.xcassets */,
+				5DA0943D1E6F529400B24022 /* LaunchScreen.storyboard */,
+				5DA094401E6F529400B24022 /* Info.plist */,
+				5DA094531E6F60DB00B24022 /* APIKeys.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5DA0944A1E6F537800B24022 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DA094471E6F537500B24022 /* DNMRover.h */,
+				5DA094481E6F537500B24022 /* DNMRover.m */,
+				5DA0944B1E6F53A700B24022 /* DNMPhoto.h */,
+				5DA0944C1E6F53A700B24022 /* DNMPhoto.m */,
+				5DA0944E1E6F53CE00B24022 /* DNMSol.h */,
+				5DA0944F1E6F53CE00B24022 /* DNMSol.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5DCA09551E79E4C50080E915 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D0E057E1E7B3B1000BE3C6F /* DNMSolCollectionViewCell.h */,
+				5D0E057F1E7B3B1000BE3C6F /* DNMSolCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5DF895921E70623700727E9A /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8958F1E70623200727E9A /* DNMMarsRoverClient.h */,
+				5DF895901E70623200727E9A /* DNMMarsRoverClient.m */,
+			);
+			name = ModelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DA0943F1E6F529400B24022 /* LaunchScreen.storyboard in Resources */,
+				5DA094541E6F60DB00B24022 /* APIKeys.plist in Resources */,
 				5DA0943C1E6F529400B24022 /* Assets.xcassets in Resources */,
 				5DA0943A1E6F529400B24022 /* Main.storyboard in Resources */,
 			);
@@ -151,8 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA094371E6F529400B24022 /* ViewController.m in Sources */,
 				5DA094341E6F529400B24022 /* AppDelegate.m in Sources */,
+				5DA094501E6F53CE00B24022 /* DNMSol.m in Sources */,
+				5DA094491E6F537500B24022 /* DNMRover.m in Sources */,
+				5D1925681E71E1B000B5EB2B /* RoversTableViewController.m in Sources */,
+				5D0E05801E7B3B1000BE3C6F /* DNMSolCollectionViewCell.m in Sources */,
+				5DCD43CD1E79A32E00816103 /* RoverManifestViewController.m in Sources */,
+				5DA0944D1E6F53A700B24022 /* DNMPhoto.m in Sources */,
+				5DF895911E70623200727E9A /* DNMMarsRoverClient.m in Sources */,
 				5DA094311E6F529400B24022 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +392,7 @@
 				5DA094451E6F529400B24022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
